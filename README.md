@@ -5,4 +5,20 @@
 [![npm](https://img.shields.io/badge/npm-install-orange.svg)](https://www.npmjs.com/package/from-cwd)
 [![npm](https://img.shields.io/badge/wezom-agency-red.svg)](https://github.com/WezomAgency)
 
-> Resolve path from CWD
+> Resolve path from CWD (Current Working Directory)
+
+### Definition
+
+`fromCWD(...paths: string[]): string`
+
+
+### Usage
+
+```js
+const fromCWD = require('from-cwd');
+
+const resolvedPath1 = fromCWD('my-folder/my.file');
+// or
+const resolvedPath2 = fromCWD('my-folder/', 'my.file');
+```
+

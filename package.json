@@ -1,7 +1,7 @@
 {
   "name": "from-cwd",
   "version": "1.0.0",
-  "description": "Resolve path from CWD",
+  "description": "Resolve path from CWD (Current Working Directory)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
