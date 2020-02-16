@@ -1,6 +1,6 @@
 {
   "name": "from-cwd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve path from CWD (Current Working Directory)",
   "main": "index.js",
   "scripts": {
